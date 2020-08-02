@@ -1,0 +1,29 @@
+.grid{
+	height: 400px;
+	width: 400px;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: purple;
+	margin-left: 50px;
+	margin-top: 50px;
+	border: 10px solid black;
+	margin-bottom: 10px;
+}
+
+.grid div{
+	height: 40px;
+	width: 40px;
+	cursor: pointer;
+	position: relative;
+	z-index: 10;
+	
+
+}
+.container .btn {
+	position: relative;
+
+}
+/*.bomb{
+	background-color: orange;
+
+}*/
