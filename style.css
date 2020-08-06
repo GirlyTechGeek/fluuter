@@ -3,7 +3,7 @@
 	width: 400px;
 	display: flex;
 	flex-wrap: wrap;
-	background-color: purple;
+	background-color: red;
 	margin-left: 50px;
 	margin-top: 50px;
 	border: 10px solid black;
@@ -11,9 +11,11 @@
 }
 
 .grid div{
-	height: 40px;
-	width: 40px;
+	height: 38px;
+	width: 38px;
 	cursor: pointer;
+	margin: 1px;
+	background-color: yellow;
 	position: relative;
 	z-index: 10;
 	
